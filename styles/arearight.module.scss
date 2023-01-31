@@ -1,14 +1,61 @@
-// .bg {
-//     &Texts {
-//         font-size: 4em;
-//         transform: rotate(90deg) translateX(20%);
-//         display: inline-block;
-//         position: fixed;
-//         right: 0;
-//     }
-//     &Text {
-//         // font-weight: bolder;
-//         color: #000;
-//     }
-// }
+.contents {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 1rem;
+    z-index: 10;
 
+    button {
+        display: block;
+        margin-bottom: .2em;
+        width: 4em;
+        height: 4em;
+        border-radius: 50px;
+        border-color: #000;
+        // border-style: none;
+        background-color: #fff;
+        transition: .3s;
+
+        .button {
+            &Tw{
+                
+            }
+            &Yt {
+
+            }
+            &Bl {
+
+            }
+            &Ti {
+
+            }
+            &Tk {
+
+            }
+            &Fb {
+
+            }
+            &Mm {
+
+            }
+            &Sc {
+
+            }
+        }
+    }
+    img {
+        width: 1.5em;
+        margin: auto;
+    }
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 4em;
+    transform: translateX(-140px) translateY(350px) rotate(90deg);
+    display: block;
+    width: 6.5em;
+    position: absolute;
+    font-family: 'Cinzel', serif;
+    z-index: -2;
+}

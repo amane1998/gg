@@ -1,0 +1,86 @@
+.main {
+    height: 100vh;
+}
+
+.kv {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+
+    img {
+        position: absolute;
+        bottom: 0;
+        z-index: -1;
+        height: 100%;
+        object-fit: cover;
+
+        @media screen and (max-width: 600px) {
+            height: 65%;
+            object-fit: cover;
+        }
+    }
+}
+
+.section { 
+    height: 100vh;
+    padding-top: 18rem;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 6em;
+    padding-left: 2rem;
+    display: block;
+    font-family: 'Cinzel', serif;
+    background-color: #fff;
+
+    &Sub {
+        font-weight: bolder;
+        font-size: .9rem;
+        padding-left: 2rem;
+        display: block;
+        font-family: 'Lexend Deca', sans-serif;
+        background-color: #fff;
+
+        h4 {
+            padding-bottom: .5em;
+        }
+
+        @media screen and (max-width: 600px) {
+            padding-left: 1.5rem;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        position: sticky;
+        top: 15rem;
+    }
+}
+
+.infoBody {
+    padding-left: 10rem;
+    padding-bottom: 2rem;
+    margin-top: -1.8rem;
+    font-family: 'Shippori Mincho B1', serif;
+
+    a {
+        display: block;
+        padding-top: .5rem;
+        padding-right: .2em;
+        font-size: .9em;
+        // font-weight: bolder;
+        color: #000;
+        font-family: 'Noto Sans JP', sans-serif;
+        position: relative;
+    }
+
+    @media screen and (max-width: 600px) {
+        padding: 0 1.5rem 2rem;
+        margin-top: 0;
+    }
+}
+
+.messageBody {
+    padding-left: 2rem;
+    font-family: 'Shippori Mincho B1', serif;
+}

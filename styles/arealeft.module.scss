@@ -1,32 +1,54 @@
 .header {
-    margin: 1em 0 0 2em;
+    padding: 1em 0 0 2em;
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    height: 16rem;
+
+    @media screen and (max-width: 600px) {
+        background-color: #fff;   
+    }
 }
 
 .title {
-    font-size: 4em;
+    font-size: 3em;
+    font-family: 'Comfortaa', cursive;
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+
     span {
         display: block;
 
         + span {
-            margin-top: -.4em;
+            margin-top: -.5em;
         }
     }
 }
 
 .nav {
-    margin-top: 1em;
+    margin-top: .3em;
     ol {
         list-style: none;
-        padding-left: 1em;
+        padding-left: .4em;
         li {
-            padding-bottom: .3em;
+            padding-bottom: .5em;
+            font-size: .8em;
             a {
                 font-weight: bolder;
                 color: #000;
                 text-decoration: none;
+                font-family: 'Noto Sans JP', sans-serif;
             }
         }
     }
+}
+
+.kv {
+     color: #000;
+     width: 3em;
+     height: 2em;
 }
 
 .subTitle {
